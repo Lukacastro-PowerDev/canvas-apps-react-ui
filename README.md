@@ -1,6 +1,19 @@
 # canvas-apps-react-ui
 
+[![License](https://img.shields.io/github/license/Lukacastro-PowerDev/canvas-apps-react-ui)](https://github.com/Lukacastro-PowerDev/canvas-apps-react-ui/blob/main/LICENSE)
+[![Repo Size](https://img.shields.io/github/repo-size/Lukacastro-PowerDev/canvas-apps-react-ui)](https://github.com/Lukacastro-PowerDev/canvas-apps-react-ui)
+[![Top Language](https://img.shields.io/github/languages/top/Lukacastro-PowerDev/canvas-apps-react-ui)](https://github.com/Lukacastro-PowerDev/canvas-apps-react-ui)
+[![Last Commit](https://img.shields.io/github/last-commit/Lukacastro-PowerDev/canvas-apps-react-ui)](https://github.com/Lukacastro-PowerDev/canvas-apps-react-ui/commits/main)
+
 > Skill de UI/UX para Power Apps Canvas Apps que imita **React + TypeScript** usando controles **HTML Text** puros. Componentes declarativos, props tipadas, hooks mapeados e design system completo — tudo sem JavaScript, apenas HTML + CSS + fórmulas Power Apps.
+
+## Visão Rápida
+
+Este repositório organiza a skill como um sistema de design completo para Canvas Apps. Ele foi pensado para ser lido, copiado e adaptado com facilidade por makers que querem um padrão visual consistente e uma experiência mais sofisticada dentro do Power Apps.
+
+- [Vitrine do projeto](SHOWCASE.md)
+- [Release inicial](CHANGELOG.md)
+- [Guia principal da skill](SKILL.md)
 
 ## 🎯 Filosofia
 
@@ -21,6 +34,8 @@ Power Apps Canvas não executa JavaScript, mas seu controle **HTML Text** aceita
 canvas-apps-react-ui/
 ├── SKILL.md                          # Documento principal da skill
 ├── README.md                         # Este arquivo
+├── SHOWCASE.md                       # Vitrine do projeto
+├── CHANGELOG.md                      # Registro do release inicial
 ├── types/
 │   └── interfaces.md                 # Interfaces TypeScript-like de props
 ├── components/
@@ -33,7 +48,7 @@ canvas-apps-react-ui/
 │   ├── Modal.md                      # Modal/drawer
 │   ├── EmptyState.md                 # Estado vazio
 │   ├── Loading.md                    # Skeleton e spinners
-│   ├── BottomNav.md                  # Navegação inferior mobile
+│   ├── BottomNav.md                  # Navegação inferior
 │   ├── DataTable.md                  # Tabela responsiva
 │   └── FormGroup.md                  # Grupo de formulário
 ├── hooks/
